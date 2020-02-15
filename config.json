@@ -1,0 +1,9 @@
+{
+	"critical_region" : 0.95,
+	"debt_to_income_ratio" : 0.43,
+	"db_name": "loan_tmp_database.db",
+	"base_info": "company_info",
+	"loan_request_results": "loan_request_results",
+	"enhanced_info": "enhanced_info",
+	"pickel_dir": "pickeled_data"
+}
