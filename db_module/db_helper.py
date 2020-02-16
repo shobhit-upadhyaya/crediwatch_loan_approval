@@ -35,7 +35,7 @@ def create_table(database_filename, table_name):
                       db.Column('Current Debt', db.Float()),
                       db.Column('debt_to_income_ratio', db.Float()),
                       db.Column('p_value', db.Float()),
-                      db.Column('loan_request_status', db.Boolean())
+                      db.Column('loan_request_status', db.String(255))
                       )
         emp.create()
 
@@ -56,7 +56,7 @@ def insert_result(database_filename, table_name, row):
                       db.Column('Current Debt', db.Float()),
                       db.Column('debt_to_income_ratio', db.Float()),
                       db.Column('p_value', db.Float()),
-                      db.Column('loan_request_status', db.Boolean())
+                      db.Column('loan_request_status', db.String(255))
                       )    
 
         query = db.insert(emp) 
